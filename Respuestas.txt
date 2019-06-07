@@ -4,7 +4,7 @@ RESPUESTAS:
 
 	-git remote add upstream ´link al repositorio remoto´  => Creo una referencia al repositorio remoto que usaré como referencia como para actualizar 
 	-git fetch upstream   => Traigo la rema del repositorio remoto y lo guarda en una nueva rama
-	-(desde el master branch) git rebase upstream/master   => Unifica la rama original y la rama recientemente importada
+	-(desde el master branch) git merge upstream/master   => Unifica la rama original y la rama recientemente importada
 
 
 2) Sí, agregando una referencia al repositorio desde el cual se actualizará, por medio del comando git remote add upstream ´link al Repo Remoto´. Puede saltar un conflicto al momento de "mergear"; hay que resolverlos
